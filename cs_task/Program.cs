@@ -1,6 +1,6 @@
 ﻿string[] ArrayCreator()
 {
-    Console.WriteLine("Введите кол-во элементов массива:");
+    Console.WriteLine("Введите кол-во элементов исходного массива:");
     int intSize = int.Parse(Console.ReadLine()!);
 
     string[] matrix = new string[intSize];
